@@ -1,6 +1,6 @@
 print("program to check the given number amstrong or not")
 cum=0
-ams=input("enter the number ")
+ams=str(1634)
 print(int(len(ams)))
 for i in range(int(len(ams))):
         cum=cum+int(ams[i])**len(ams)

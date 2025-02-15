@@ -3,9 +3,9 @@ cum=0
 ams=str(1634)
 print(int(len(ams)))
 for i in range(int(len(ams))):
-        cum=cum+int(ams[i])**len(ams)
-        print(cum)
+    cum=cum+int(ams[i])**len(ams)
+    print(cum)
 if cum==int(ams):
-            print("yes,it is armstrong number")
+    print("yes,it is armstrong number")
 else:
-            print("no, not a armstrong number")
+    print("no, not a armstrong number")
